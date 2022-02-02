@@ -11,7 +11,6 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ListView myList = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

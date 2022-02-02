@@ -31,7 +31,7 @@ public class AndroidAdapter extends ArrayAdapter<Person> {
 // Заполняем адаптер
         ((TextView) convertView.findViewById(R.id.name)).setText(person.name);
         ((TextView) convertView.findViewById(R.id.money)).setText(person.money);
-// Выбираем картинку для месяца
+// Выбираем картинку для флага
 
         ((ImageView) convertView.findViewById(R.id.flag)).setImageResource(person.flag);
         return convertView;
